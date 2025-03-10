@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: green;
+    color: white;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .landing {
+    text-align: center;
+    padding: 5rem;
+    background: #e9f5db;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5rem; /* Increased the gap between cards */
+    padding: 2rem; /* Added more padding for overall spacing */
+  }
+  
+  .plant-card {
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Added subtle shadow for better appearance */
+  }
+  
+  .plant-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+ 
